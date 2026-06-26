@@ -1,1 +1,11 @@
+server:
+  port: 8085
 
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: inventory-route
+          uri: lb://MODULE12.INVENTORY
+          predicates:
+            - Path=/inventory/**
