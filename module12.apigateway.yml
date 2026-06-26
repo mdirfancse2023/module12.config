@@ -4,8 +4,29 @@ server:
 spring:
   cloud:
     gateway:
-      routes:
-        - id: inventory-route
-          uri: lb://MODULE12.INVENTORY
-          predicates:
-            - Path=/inventory/**
+      server:
+        webflux:
+          routes:
+            - id: order-route
+              uri: lb://module12.order
+              predicates:
+                - Path=/orders/**
+
+            - id: inventory-route
+              uri: lb://module12.inventory
+              predicates:
+                - Path=/inventory/**
+
+            - id: shipping-route
+              uri: lb://module12.shipping
+              predicates:
+                - Path=/shipment/**
+
+
+logging:
+  level:
+    org.springframework.cloud.gateway: TRACE
+
+jwt:
+  secret: mysecretkeymysecretkeymysecretkey123456
+    
