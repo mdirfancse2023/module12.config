@@ -1,10 +1,7 @@
 server:
   port: 8085
 
-spring:
-  application:
-    name: module12.apigateway
-    
+spring:  
   cloud:
     gateway:
       server:
