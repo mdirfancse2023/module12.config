@@ -25,6 +25,7 @@ spring:
     producer:
       key-serializer: org.apache.kafka.common.serialization.StringSerializer
       value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+      spring.json.add.type.headers: false
 
     consumer:
       group-id: order-group
