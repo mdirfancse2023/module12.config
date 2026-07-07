@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BackgroundAgentGlobalSettings">
+    <option name="selectedModelId" value="auto" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="79807f80-78e7-4820-9447-b011849b88b2" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_/Users/macbook/Documents/June/module12.homework" value="3FGo6ThwH5kFam6CWaveWL2Vj0V" />
+      <entry key="_/Users/macbook/Documents/June/module12.homework/module12.eureka" value="3FJbIQsDvDlxEgni1PVNcN6dAHF" />
+    </persistenceIdMap>
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="85" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/module12.eureka/src/main/java/june/module12/eureka/Application.java" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.7320428479728127" />
+      <entry key="MS500" value="1.939522749214012" />
+      <entry key="S2" value="1.9845251733374139" />
+      <entry key="S5" value="1.9937810933225548" />
+      <entry key="S10" value="1.996885697220376" />
+      <entry key="S30" value="1.9989608195515238" />
+      <entry key="S60" value="1.999480302173486" />
+      <entry key="M2" value="1.9999869624830233" />
+      <entry key="M5" value="2.0784878114137655" />
+      <entry key="M10" value="2.6355791687643757" />
+      <entry key="M15" value="3.490510249562438" />
+      <entry key="M30" value="7.581600573609516" />
+      <entry key="H1" value="17.666989789811232" />
+      <entry key="H2" value="31.06393339659874" />
+      <entry key="H4" value="42.45043566475697" />
+      <entry key="D1" value="65.13632298915056" />
+      <entry key="W1" value="107.79927146869032" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="5.487461802236626E-158" />
+      <entry key="S5" value="1.2466616621159904E-63" />
+      <entry key="S10" value="3.530809626864624E-32" />
+      <entry key="S30" value="3.2806364107118056E-11" />
+      <entry key="S60" value="5.727684009014293E-6" />
+      <entry key="M2" value="0.00239325803226779" />
+      <entry key="M5" value="0.08945319800864654" />
+      <entry key="M10" value="0.29929644102822045" />
+      <entry key="M15" value="0.45300642656887935" />
+      <entry key="M30" value="0.8352033401328568" />
+      <entry key="H1" value="1.725489764835857" />
+      <entry key="H2" value="3.0320881552415138" />
+      <entry key="H4" value="4.211973807286463" />
+      <entry key="D1" value="10.241499818904463" />
+      <entry key="W1" value="30.198776723505503" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.8293195482893118" />
+      <entry key="MS500" value="0.9822600078198839" />
+      <entry key="S2" value="1.3619456972159214" />
+      <entry key="S5" value="1.669040865972002" />
+      <entry key="S10" value="1.8183600159928888" />
+      <entry key="S30" value="1.9354539374455975" />
+      <entry key="S60" value="1.967204657290862" />
+      <entry key="M2" value="1.9860519782868356" />
+      <entry key="M5" value="2.1604907547836874" />
+      <entry key="M10" value="2.929817988026473" />
+      <entry key="M15" value="3.9393362477430327" />
+      <entry key="M30" value="8.413243777886006" />
+      <entry key="H1" value="19.38869904651416" />
+      <entry key="H2" value="34.09267177887938" />
+      <entry key="H4" value="46.66008469483184" />
+      <entry key="D1" value="75.37709630217269" />
+      <entry key="W1" value="137.99781321184219" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3FGo6ThwH5kFam6CWaveWL2Vj0V" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Notification.DisplayName-DoNotAsk-DatabaseConfigFileWatcher.found&quot;: &quot;New/updated database configurations found&quot;,
+    &quot;Notification.DoNotAsk-DatabaseConfigFileWatcher.found&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;Spring Boot.Application (1).executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Application (2).executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Application (3).executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Application (4).executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Application (5).executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Application.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.ConfigApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.EurekaApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.GatewayApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.InventoryApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.OrderApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.ShippingApplication.executor&quot;: &quot;Run&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;copilot.chat.legacySessionMetadata.migrated&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="KtorApplicationConfigurationType" />
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="configurationStatuses">
+      <map>
+        <entry key="SpringBootApplicationConfigurationType">
+          <value>
+            <map>
+              <entry key="ConfigApplication" value="STOPPED" />
+              <entry key="EurekaApplication" value="STOPPED" />
+              <entry key="GatewayApplication" value="STOPPED" />
+              <entry key="InventoryApplication" value="STOPPED" />
+              <entry key="OrderApplication" value="STOPPED" />
+              <entry key="ShippingApplication" value="STOPPED" />
+            </map>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ConfigApplication">
+    <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
+      <option name="appName" />
+      <option name="appServicePlanName" />
+      <option name="appServicePlanResourceGroup" />
+      <option name="appSettingsKey" value="2e99f7c8-4340-471f-a8a5-25d7ca978eda" />
+      <option name="artifact" />
+      <option name="debugOptions" />
+      <option name="deployment" />
+      <option name="deploymentStagingDirectoryPath" />
+      <option name="funcPath" />
+      <option name="functionHostArguments" />
+      <option name="hostJsonPath" />
+      <option name="insightsName" />
+      <option name="instrumentationKey" />
+      <option name="javaVersion" />
+      <option name="localSettingsJsonPath" />
+      <option name="moduleName" />
+      <option name="os" />
+      <option name="pricingTier" />
+      <option name="providerMap">
+        <map />
+      </option>
+      <option name="region" />
+      <option name="resourceGroup" />
+      <option name="stagingFolder" />
+      <option name="subscription" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="module13.config" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="june.module13.config.ConfigApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="module12.eureka" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="june.module12.eureka.EurekaApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="june.module12.eureka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="module12.apigateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="june.module12.apigateway.GatewayApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="june.module12.apigateway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InventoryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="module12.inventory" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="june.module12.inventory.InventoryApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="june.module12.inventory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="module12.order" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="june.module12.order.OrderApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="june.module12.order.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShippingApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="module12.shipping" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="june.module12.shipping.ShippingApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="june.module12.shipping.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.InventoryApplication" />
+        <item itemvalue="Spring Boot.OrderApplication" />
+        <item itemvalue="Spring Boot.EurekaApplication" />
+        <item itemvalue="Spring Boot.GatewayApplication" />
+        <item itemvalue="Spring Boot.ShippingApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.25134.95" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.25134.95" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="79807f80-78e7-4820-9447-b011849b88b2" name="Changes" comment="" />
+      <created>1781710592871</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1781710592871</updated>
+      <workItem from="1781710594747" duration="151000" />
+      <workItem from="1781710789091" duration="57000" />
+      <workItem from="1781710864050" duration="198000" />
+      <workItem from="1781711080402" duration="692000" />
+      <workItem from="1781711792442" duration="4555000" />
+      <workItem from="1781796041493" duration="9432000" />
+      <workItem from="1782317468241" duration="165000" />
+      <workItem from="1782317658298" duration="5179000" />
+      <workItem from="1782404414422" duration="7073000" />
+      <workItem from="1782962874902" duration="49000" />
+      <workItem from="1782962953635" duration="5307000" />
+      <workItem from="1783049203771" duration="5010000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/module12.eureka/src/main/java/june/module12/eureka/EurekaApplication.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/module12.apigateway/src/main/java/june/module12/apigateway/filter/TestFilter.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/module12.apigateway/src/main/java/june/module12/apigateway/filter/TestFilter.java</url>
+          <line>12</line>
+          <properties class="june.module12.apigateway.filter.TestFilter" method="filter">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/module12.apigateway/src/main/java/june/module12/apigateway/security/JwtUtil.java</url>
+          <line>17</line>
+          <properties class="june.module12.apigateway.security.JwtUtil" method="extractClaims">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

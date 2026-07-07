@@ -1,0 +1,304 @@
+2026-05-10T18:17:55.749+05:30  INFO 4060 --- [module4.homework] [restartedMain] june.module4.homework.Application        : Starting Application using Java 25 with PID 4060 (/Users/macbook/Documents/June/module4.homework/target/classes started by macbook in /Users/macbook/Documents/June/module4.homework)
+2026-05-10T18:17:55.751+05:30  INFO 4060 --- [module4.homework] [restartedMain] june.module4.homework.Application        : No active profile set, falling back to 1 default profile: "default"
+2026-05-10T18:17:55.797+05:30  INFO 4060 --- [module4.homework] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-05-10T18:17:55.797+05:30  INFO 4060 --- [module4.homework] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-05-10T18:17:56.367+05:30  INFO 4060 --- [module4.homework] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-10T18:17:56.379+05:30  INFO 4060 --- [module4.homework] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 0 JPA repository interfaces.
+2026-05-10T18:17:56.769+05:30  INFO 4060 --- [module4.homework] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8085 (http)
+2026-05-10T18:17:56.778+05:30  INFO 4060 --- [module4.homework] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-10T18:17:56.778+05:30  INFO 4060 --- [module4.homework] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-05-10T18:17:56.802+05:30  INFO 4060 --- [module4.homework] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1005 ms
+2026-05-10T18:17:56.948+05:30  INFO 4060 --- [module4.homework] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-05-10T18:17:56.980+05:30  INFO 4060 --- [module4.homework] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-05-10T18:17:57.236+05:30  INFO 4060 --- [module4.homework] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-10T18:17:57.255+05:30  INFO 4060 --- [module4.homework] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-05-10T18:17:57.385+05:30  INFO 4060 --- [module4.homework] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1d632821
+2026-05-10T18:17:57.386+05:30  INFO 4060 --- [module4.homework] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-05-10T18:17:57.413+05:30  WARN 4060 --- [module4.homework] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-05-10T18:17:57.433+05:30  INFO 4060 --- [module4.homework] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5434/vectordb]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 15.4
+	Default catalog/schema: vectordb/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-10T18:17:57.687+05:30  INFO 4060 --- [module4.homework] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-10T18:17:57.691+05:30  INFO 4060 --- [module4.homework] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-10T18:17:57.769+05:30  WARN 4060 --- [module4.homework] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-10T18:17:58.119+05:30  INFO 4060 --- [module4.homework] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 13 endpoints beneath base path '/actuator'
+2026-05-10T18:17:58.164+05:30  INFO 4060 --- [module4.homework] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8085 (http) with context path '/'
+2026-05-10T18:17:58.171+05:30  INFO 4060 --- [module4.homework] [restartedMain] june.module4.homework.Application        : Started Application in 2.736 seconds (process running for 3.206)
+2026-05-10T18:17:58.222+05:30  WARN 4060 --- [module4.homework] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-05-10T18:17:58.223+05:30  WARN 4060 --- [module4.homework] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-05-10T18:52:11.981+05:30  WARN 4060 --- [module4.homework] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=14m13s696ms).
+2026-05-10T19:22:09.477+05:30  WARN 4060 --- [module4.homework] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=57s226ms).
+2026-05-10T19:33:50.478+05:30  WARN 4060 --- [module4.homework] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=11m41s2ms).
+2026-05-10T20:19:23.086+05:30  INFO 4060 --- [module4.homework] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-10T20:19:25.097+05:30  INFO 4060 --- [module4.homework] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-05-10T20:19:25.104+05:30  INFO 4060 --- [module4.homework] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-10T20:19:25.108+05:30  INFO 4060 --- [module4.homework] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-05-10T20:19:25.109+05:30  INFO 4060 --- [module4.homework] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-05-10T20:19:27.157+05:30  INFO 6936 --- [module4.homework] [restartedMain] june.module4.homework.Application        : Starting Application using Java 25 with PID 6936 (/Users/macbook/Documents/June/module4.homework/target/classes started by macbook in /Users/macbook/Documents/June/module4.homework)
+2026-05-10T20:19:27.159+05:30  INFO 6936 --- [module4.homework] [restartedMain] june.module4.homework.Application        : No active profile set, falling back to 1 default profile: "default"
+2026-05-10T20:19:27.202+05:30  INFO 6936 --- [module4.homework] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-05-10T20:19:27.203+05:30  INFO 6936 --- [module4.homework] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-05-10T20:19:27.855+05:30  INFO 6936 --- [module4.homework] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-10T20:19:27.897+05:30  INFO 6936 --- [module4.homework] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 35 ms. Found 1 JPA repository interface.
+2026-05-10T20:19:28.535+05:30  INFO 6936 --- [module4.homework] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8085 (http)
+2026-05-10T20:19:28.544+05:30  INFO 6936 --- [module4.homework] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-10T20:19:28.544+05:30  INFO 6936 --- [module4.homework] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-05-10T20:19:28.565+05:30  INFO 6936 --- [module4.homework] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1362 ms
+2026-05-10T20:19:28.709+05:30  INFO 6936 --- [module4.homework] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-05-10T20:19:28.742+05:30  INFO 6936 --- [module4.homework] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-05-10T20:19:28.989+05:30  INFO 6936 --- [module4.homework] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-10T20:19:29.008+05:30  INFO 6936 --- [module4.homework] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-05-10T20:19:29.144+05:30  INFO 6936 --- [module4.homework] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5a3afa6b
+2026-05-10T20:19:29.144+05:30  INFO 6936 --- [module4.homework] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-05-10T20:19:29.166+05:30  WARN 6936 --- [module4.homework] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-05-10T20:19:29.179+05:30  INFO 6936 --- [module4.homework] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5434/vectordb]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 15.4
+	Default catalog/schema: vectordb/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-10T20:19:29.673+05:30  INFO 6936 --- [module4.homework] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-10T20:19:29.731+05:30  INFO 6936 --- [module4.homework] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-10T20:19:29.881+05:30  INFO 6936 --- [module4.homework] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-05-10T20:19:30.003+05:30  WARN 6936 --- [module4.homework] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-10T20:19:30.340+05:30  INFO 6936 --- [module4.homework] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 13 endpoints beneath base path '/actuator'
+2026-05-10T20:19:30.382+05:30  INFO 6936 --- [module4.homework] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8085 (http) with context path '/'
+2026-05-10T20:19:30.389+05:30  INFO 6936 --- [module4.homework] [restartedMain] june.module4.homework.Application        : Started Application in 3.586 seconds (process running for 4.064)
+2026-05-10T20:19:30.445+05:30  WARN 6936 --- [module4.homework] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-05-10T20:19:30.445+05:30  WARN 6936 --- [module4.homework] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-05-10T20:20:42.983+05:30  INFO 6936 --- [module4.homework] [http-nio-8085-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-10T20:20:42.983+05:30  INFO 6936 --- [module4.homework] [http-nio-8085-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-05-10T20:20:42.988+05:30  INFO 6936 --- [module4.homework] [http-nio-8085-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2026-05-10T20:21:19.443+05:30  INFO 6936 --- [module4.homework] [http-nio-8085-exec-3] j.m.h.controller.CurrencyController      : Received request for currency conversion
+2026-05-10T20:21:19.443+05:30  INFO 6936 --- [module4.homework] [http-nio-8085-exec-3] j.m.homework.service.CurrencyService     : Currency conversion started
+2026-05-10T20:21:19.443+05:30  INFO 6936 --- [module4.homework] [http-nio-8085-exec-3] j.m.homework.service.CurrencyService     : Calling external API
+2026-05-10T20:21:20.421+05:30  INFO 6936 --- [module4.homework] [http-nio-8085-exec-3] j.m.homework.service.CurrencyService     : Conversion rate fetched
+2026-05-10T20:21:20.421+05:30  INFO 6936 --- [module4.homework] [http-nio-8085-exec-3] j.m.homework.service.CurrencyService     : Converted amount calculated
+2026-05-10T20:21:20.468+05:30  INFO 6936 --- [module4.homework] [http-nio-8085-exec-3] j.m.homework.service.CurrencyService     : Transaction saved into database
+2026-05-10T20:22:15.251+05:30  INFO 6936 --- [module4.homework] [http-nio-8085-exec-4] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 107 ms
+2026-05-10T20:23:38.590+05:30  INFO 6936 --- [module4.homework] [http-nio-8085-exec-9] j.m.h.controller.CurrencyController      : Received request for currency conversion
+2026-05-10T20:23:38.591+05:30  INFO 6936 --- [module4.homework] [http-nio-8085-exec-9] j.m.homework.service.CurrencyService     : Currency conversion started
+2026-05-10T20:23:38.591+05:30  INFO 6936 --- [module4.homework] [http-nio-8085-exec-9] j.m.homework.service.CurrencyService     : Calling external API
+2026-05-10T20:23:39.760+05:30  INFO 6936 --- [module4.homework] [http-nio-8085-exec-9] j.m.homework.service.CurrencyService     : Conversion rate fetched
+2026-05-10T20:23:39.760+05:30  INFO 6936 --- [module4.homework] [http-nio-8085-exec-9] j.m.homework.service.CurrencyService     : Converted amount calculated
+2026-05-10T20:23:39.771+05:30  INFO 6936 --- [module4.homework] [http-nio-8085-exec-9] j.m.homework.service.CurrencyService     : Transaction saved into database
+2026-05-10T20:26:33.864+05:30  WARN 6936 --- [module4.homework] [http-nio-8085-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'fromCurrency' for method parameter type String is not present]
+2026-05-10T20:32:01.660+05:30  INFO 6936 --- [module4.homework] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-10T20:32:03.671+05:30  INFO 6936 --- [module4.homework] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-05-10T20:32:03.677+05:30  INFO 6936 --- [module4.homework] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-10T20:32:03.681+05:30  INFO 6936 --- [module4.homework] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-05-10T20:32:03.682+05:30  INFO 6936 --- [module4.homework] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-05-10T20:32:05.949+05:30  INFO 7332 --- [module4.homework] [restartedMain] june.module4.homework.Application        : Starting Application using Java 25 with PID 7332 (/Users/macbook/Documents/June/module4.homework/target/classes started by macbook in /Users/macbook/Documents/June/module4.homework)
+2026-05-10T20:32:05.951+05:30  INFO 7332 --- [module4.homework] [restartedMain] june.module4.homework.Application        : No active profile set, falling back to 1 default profile: "default"
+2026-05-10T20:32:05.997+05:30  INFO 7332 --- [module4.homework] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-05-10T20:32:05.998+05:30  INFO 7332 --- [module4.homework] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-05-10T20:32:06.818+05:30  INFO 7332 --- [module4.homework] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-10T20:32:06.846+05:30  INFO 7332 --- [module4.homework] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 22 ms. Found 1 JPA repository interface.
+2026-05-10T20:32:07.208+05:30  INFO 7332 --- [module4.homework] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8085 (http)
+2026-05-10T20:32:07.217+05:30  INFO 7332 --- [module4.homework] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-10T20:32:07.217+05:30  INFO 7332 --- [module4.homework] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-05-10T20:32:07.238+05:30  INFO 7332 --- [module4.homework] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1239 ms
+2026-05-10T20:32:07.406+05:30  INFO 7332 --- [module4.homework] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-05-10T20:32:07.445+05:30  INFO 7332 --- [module4.homework] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-05-10T20:32:07.711+05:30  INFO 7332 --- [module4.homework] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-10T20:32:07.730+05:30  INFO 7332 --- [module4.homework] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-05-10T20:32:07.873+05:30  INFO 7332 --- [module4.homework] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7320c453
+2026-05-10T20:32:07.874+05:30  INFO 7332 --- [module4.homework] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-05-10T20:32:07.898+05:30  WARN 7332 --- [module4.homework] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-05-10T20:32:07.916+05:30  INFO 7332 --- [module4.homework] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5434/vectordb]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 15.4
+	Default catalog/schema: vectordb/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-10T20:32:08.469+05:30  INFO 7332 --- [module4.homework] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-10T20:32:08.504+05:30  INFO 7332 --- [module4.homework] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-10T20:32:08.659+05:30  INFO 7332 --- [module4.homework] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-05-10T20:32:08.773+05:30  WARN 7332 --- [module4.homework] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-10T20:32:09.135+05:30  INFO 7332 --- [module4.homework] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 13 endpoints beneath base path '/actuator'
+2026-05-10T20:32:09.178+05:30  INFO 7332 --- [module4.homework] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8085 (http) with context path '/'
+2026-05-10T20:32:09.185+05:30  INFO 7332 --- [module4.homework] [restartedMain] june.module4.homework.Application        : Started Application in 3.715 seconds (process running for 4.144)
+2026-05-10T20:32:09.247+05:30  WARN 7332 --- [module4.homework] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-05-10T20:32:09.247+05:30  WARN 7332 --- [module4.homework] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-05-10T20:32:32.379+05:30  INFO 7332 --- [module4.homework] [http-nio-8085-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-10T20:32:32.380+05:30  INFO 7332 --- [module4.homework] [http-nio-8085-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-05-10T20:32:32.385+05:30  INFO 7332 --- [module4.homework] [http-nio-8085-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2026-05-10T20:32:32.475+05:30  INFO 7332 --- [module4.homework] [http-nio-8085-exec-1] j.m.h.controller.CurrencyController      : Received request for currency conversion
+2026-05-10T20:32:32.475+05:30  INFO 7332 --- [module4.homework] [http-nio-8085-exec-1] j.m.homework.service.CurrencyService     : Currency conversion started
+2026-05-10T20:32:32.476+05:30  INFO 7332 --- [module4.homework] [http-nio-8085-exec-1] j.m.homework.service.CurrencyService     : Calling external API
+2026-05-10T20:32:38.622+05:30  INFO 7332 --- [module4.homework] [http-nio-8085-exec-1] j.m.homework.service.CurrencyService     : Conversion rate fetched
+2026-05-10T20:32:38.623+05:30  INFO 7332 --- [module4.homework] [http-nio-8085-exec-1] j.m.homework.service.CurrencyService     : Converted amount calculated
+2026-05-10T20:32:38.669+05:30  INFO 7332 --- [module4.homework] [http-nio-8085-exec-1] j.m.homework.service.CurrencyService     : Transaction saved into database
+2026-05-10T20:33:10.400+05:30  INFO 7332 --- [module4.homework] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-10T20:33:12.408+05:30  INFO 7332 --- [module4.homework] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-05-10T20:33:12.413+05:30  INFO 7332 --- [module4.homework] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-10T20:33:12.417+05:30  INFO 7332 --- [module4.homework] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-05-10T20:33:12.418+05:30  INFO 7332 --- [module4.homework] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-05-10T20:33:14.326+05:30  INFO 7423 --- [module4.homework] [restartedMain] june.module4.homework.Application        : Starting Application using Java 25 with PID 7423 (/Users/macbook/Documents/June/module4.homework/target/classes started by macbook in /Users/macbook/Documents/June/module4.homework)
+2026-05-10T20:33:14.329+05:30  INFO 7423 --- [module4.homework] [restartedMain] june.module4.homework.Application        : No active profile set, falling back to 1 default profile: "default"
+2026-05-10T20:33:14.370+05:30  INFO 7423 --- [module4.homework] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-05-10T20:33:14.370+05:30  INFO 7423 --- [module4.homework] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-05-10T20:33:14.953+05:30  INFO 7423 --- [module4.homework] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-10T20:33:14.979+05:30  INFO 7423 --- [module4.homework] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 22 ms. Found 1 JPA repository interface.
+2026-05-10T20:33:15.376+05:30  INFO 7423 --- [module4.homework] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8085 (http)
+2026-05-10T20:33:15.384+05:30  INFO 7423 --- [module4.homework] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-10T20:33:15.384+05:30  INFO 7423 --- [module4.homework] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-05-10T20:33:15.404+05:30  INFO 7423 --- [module4.homework] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1034 ms
+2026-05-10T20:33:15.553+05:30  INFO 7423 --- [module4.homework] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-05-10T20:33:15.583+05:30  INFO 7423 --- [module4.homework] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-05-10T20:33:15.822+05:30  INFO 7423 --- [module4.homework] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-10T20:33:15.843+05:30  INFO 7423 --- [module4.homework] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-05-10T20:33:15.966+05:30  INFO 7423 --- [module4.homework] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@506ec0e7
+2026-05-10T20:33:15.967+05:30  INFO 7423 --- [module4.homework] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-05-10T20:33:15.986+05:30  WARN 7423 --- [module4.homework] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-05-10T20:33:15.999+05:30  INFO 7423 --- [module4.homework] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5434/vectordb]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 15.4
+	Default catalog/schema: vectordb/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-10T20:33:16.467+05:30  INFO 7423 --- [module4.homework] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-10T20:33:16.502+05:30  INFO 7423 --- [module4.homework] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-10T20:33:16.643+05:30  INFO 7423 --- [module4.homework] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-05-10T20:33:16.752+05:30  WARN 7423 --- [module4.homework] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-10T20:33:17.062+05:30  INFO 7423 --- [module4.homework] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 13 endpoints beneath base path '/actuator'
+2026-05-10T20:33:17.102+05:30  INFO 7423 --- [module4.homework] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8085 (http) with context path '/'
+2026-05-10T20:33:17.109+05:30  INFO 7423 --- [module4.homework] [restartedMain] june.module4.homework.Application        : Started Application in 3.076 seconds (process running for 3.47)
+2026-05-10T20:33:17.173+05:30  WARN 7423 --- [module4.homework] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-05-10T20:33:17.174+05:30  WARN 7423 --- [module4.homework] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-05-10T20:33:41.982+05:30  INFO 7423 --- [module4.homework] [http-nio-8085-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-10T20:33:41.982+05:30  INFO 7423 --- [module4.homework] [http-nio-8085-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-05-10T20:33:41.984+05:30  INFO 7423 --- [module4.homework] [http-nio-8085-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-05-10T20:33:42.075+05:30  INFO 7423 --- [module4.homework] [http-nio-8085-exec-1] j.m.h.controller.CurrencyController      : Received request for currency conversion
+2026-05-10T20:33:42.075+05:30  INFO 7423 --- [module4.homework] [http-nio-8085-exec-1] j.m.homework.service.CurrencyService     : Currency conversion started
+2026-05-10T20:33:42.075+05:30  INFO 7423 --- [module4.homework] [http-nio-8085-exec-1] j.m.homework.service.CurrencyService     : Calling external API
+2026-05-10T20:33:43.078+05:30  INFO 7423 --- [module4.homework] [http-nio-8085-exec-1] j.m.homework.service.CurrencyService     : Conversion rate fetched
+2026-05-10T20:33:43.078+05:30  INFO 7423 --- [module4.homework] [http-nio-8085-exec-1] j.m.homework.service.CurrencyService     : Converted amount calculated
+2026-05-10T20:33:43.136+05:30  INFO 7423 --- [module4.homework] [http-nio-8085-exec-1] j.m.homework.service.CurrencyService     : Transaction saved into database
+2026-05-10T20:34:11.524+05:30  INFO 7423 --- [module4.homework] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-10T20:34:13.533+05:30  INFO 7423 --- [module4.homework] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-05-10T20:34:13.538+05:30  INFO 7423 --- [module4.homework] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-10T20:34:13.542+05:30  INFO 7423 --- [module4.homework] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-05-10T20:34:13.544+05:30  INFO 7423 --- [module4.homework] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-05-10T20:34:14.895+05:30  INFO 7485 --- [module4.homework] [restartedMain] june.module4.homework.Application        : Starting Application using Java 25 with PID 7485 (/Users/macbook/Documents/June/module4.homework/target/classes started by macbook in /Users/macbook/Documents/June/module4.homework)
+2026-05-10T20:34:14.896+05:30  INFO 7485 --- [module4.homework] [restartedMain] june.module4.homework.Application        : No active profile set, falling back to 1 default profile: "default"
+2026-05-10T20:34:14.929+05:30  INFO 7485 --- [module4.homework] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-05-10T20:34:14.929+05:30  INFO 7485 --- [module4.homework] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-05-10T20:34:15.482+05:30  INFO 7485 --- [module4.homework] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-10T20:34:15.508+05:30  INFO 7485 --- [module4.homework] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 22 ms. Found 1 JPA repository interface.
+2026-05-10T20:34:15.878+05:30  INFO 7485 --- [module4.homework] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8085 (http)
+2026-05-10T20:34:15.886+05:30  INFO 7485 --- [module4.homework] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-10T20:34:15.887+05:30  INFO 7485 --- [module4.homework] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-05-10T20:34:15.906+05:30  INFO 7485 --- [module4.homework] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 976 ms
+2026-05-10T20:34:16.044+05:30  INFO 7485 --- [module4.homework] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-05-10T20:34:16.071+05:30  INFO 7485 --- [module4.homework] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-05-10T20:34:16.307+05:30  INFO 7485 --- [module4.homework] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-10T20:34:16.327+05:30  INFO 7485 --- [module4.homework] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-05-10T20:34:16.443+05:30  INFO 7485 --- [module4.homework] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2899a9b2
+2026-05-10T20:34:16.444+05:30  INFO 7485 --- [module4.homework] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-05-10T20:34:16.462+05:30  WARN 7485 --- [module4.homework] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-05-10T20:34:16.475+05:30  INFO 7485 --- [module4.homework] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5434/vectordb]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 15.4
+	Default catalog/schema: vectordb/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-10T20:34:16.930+05:30  INFO 7485 --- [module4.homework] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-10T20:34:16.956+05:30  INFO 7485 --- [module4.homework] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-10T20:34:17.097+05:30  INFO 7485 --- [module4.homework] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-05-10T20:34:17.222+05:30  WARN 7485 --- [module4.homework] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-10T20:34:17.540+05:30  INFO 7485 --- [module4.homework] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 13 endpoints beneath base path '/actuator'
+2026-05-10T20:34:17.582+05:30  INFO 7485 --- [module4.homework] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8085 (http) with context path '/'
+2026-05-10T20:34:17.589+05:30  INFO 7485 --- [module4.homework] [restartedMain] june.module4.homework.Application        : Started Application in 2.986 seconds (process running for 3.38)
+2026-05-10T20:34:17.638+05:30  WARN 7485 --- [module4.homework] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-05-10T20:34:17.638+05:30  WARN 7485 --- [module4.homework] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-05-10T20:35:37.424+05:30  INFO 7485 --- [module4.homework] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-10T20:35:39.439+05:30  INFO 7485 --- [module4.homework] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-05-10T20:35:39.445+05:30  INFO 7485 --- [module4.homework] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-10T20:35:39.449+05:30  INFO 7485 --- [module4.homework] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-05-10T20:35:39.451+05:30  INFO 7485 --- [module4.homework] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-05-10T20:35:41.365+05:30  INFO 7538 --- [module4.homework] [restartedMain] june.module4.homework.Application        : Starting Application using Java 25 with PID 7538 (/Users/macbook/Documents/June/module4.homework/target/classes started by macbook in /Users/macbook/Documents/June/module4.homework)
+2026-05-10T20:35:41.366+05:30  INFO 7538 --- [module4.homework] [restartedMain] june.module4.homework.Application        : No active profile set, falling back to 1 default profile: "default"
+2026-05-10T20:35:41.400+05:30  INFO 7538 --- [module4.homework] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-05-10T20:35:41.400+05:30  INFO 7538 --- [module4.homework] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-05-10T20:35:41.972+05:30  INFO 7538 --- [module4.homework] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-10T20:35:42.005+05:30  INFO 7538 --- [module4.homework] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 27 ms. Found 1 JPA repository interface.
+2026-05-10T20:35:42.415+05:30  INFO 7538 --- [module4.homework] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8085 (http)
+2026-05-10T20:35:42.423+05:30  INFO 7538 --- [module4.homework] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-10T20:35:42.423+05:30  INFO 7538 --- [module4.homework] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-05-10T20:35:42.445+05:30  INFO 7538 --- [module4.homework] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1045 ms
+2026-05-10T20:35:42.579+05:30  INFO 7538 --- [module4.homework] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-05-10T20:35:42.606+05:30  INFO 7538 --- [module4.homework] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-05-10T20:35:42.841+05:30  INFO 7538 --- [module4.homework] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-10T20:35:42.858+05:30  INFO 7538 --- [module4.homework] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-05-10T20:35:42.978+05:30  INFO 7538 --- [module4.homework] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5fd39704
+2026-05-10T20:35:42.979+05:30  INFO 7538 --- [module4.homework] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-05-10T20:35:42.999+05:30  WARN 7538 --- [module4.homework] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-05-10T20:35:43.012+05:30  INFO 7538 --- [module4.homework] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5434/vectordb]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 15.4
+	Default catalog/schema: vectordb/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-10T20:35:43.478+05:30  INFO 7538 --- [module4.homework] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-10T20:35:43.517+05:30  INFO 7538 --- [module4.homework] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-10T20:35:43.683+05:30  INFO 7538 --- [module4.homework] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-05-10T20:35:43.856+05:30  WARN 7538 --- [module4.homework] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-10T20:35:44.237+05:30  INFO 7538 --- [module4.homework] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 13 endpoints beneath base path '/actuator'
+2026-05-10T20:35:44.277+05:30  INFO 7538 --- [module4.homework] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8085 (http) with context path '/'
+2026-05-10T20:35:44.285+05:30  INFO 7538 --- [module4.homework] [restartedMain] june.module4.homework.Application        : Started Application in 3.205 seconds (process running for 3.592)
+2026-05-10T20:35:44.335+05:30  WARN 7538 --- [module4.homework] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-05-10T20:35:44.335+05:30  WARN 7538 --- [module4.homework] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-05-10T20:36:02.690+05:30  INFO 7538 --- [module4.homework] [http-nio-8085-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-10T20:36:02.690+05:30  INFO 7538 --- [module4.homework] [http-nio-8085-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-05-10T20:36:02.691+05:30  INFO 7538 --- [module4.homework] [http-nio-8085-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2026-05-10T20:36:02.776+05:30  INFO 7538 --- [module4.homework] [http-nio-8085-exec-1] j.m.h.controller.CurrencyController      : Received request for currency conversion
+2026-05-10T20:36:02.776+05:30  INFO 7538 --- [module4.homework] [http-nio-8085-exec-1] j.m.homework.service.CurrencyService     : Currency conversion started
+2026-05-10T20:36:02.777+05:30  INFO 7538 --- [module4.homework] [http-nio-8085-exec-1] j.m.homework.service.CurrencyService     : Calling external API
+2026-05-10T20:36:04.036+05:30  INFO 7538 --- [module4.homework] [http-nio-8085-exec-1] j.m.homework.service.CurrencyService     : Conversion rate fetched
+2026-05-10T20:36:04.036+05:30  INFO 7538 --- [module4.homework] [http-nio-8085-exec-1] j.m.homework.service.CurrencyService     : Converted amount calculated
+2026-05-10T20:36:04.095+05:30  INFO 7538 --- [module4.homework] [http-nio-8085-exec-1] j.m.homework.service.CurrencyService     : Transaction saved into database
+2026-05-10T20:39:38.701+05:30  INFO 7538 --- [module4.homework] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-10T20:39:40.709+05:30  INFO 7538 --- [module4.homework] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-05-10T20:39:40.715+05:30  INFO 7538 --- [module4.homework] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-10T20:39:40.719+05:30  INFO 7538 --- [module4.homework] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-05-10T20:39:40.720+05:30  INFO 7538 --- [module4.homework] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
