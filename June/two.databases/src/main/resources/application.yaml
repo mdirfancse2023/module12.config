@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: two.databases
+
+  datasource:
+    postgres:
+      url: jdbc:postgresql://localhost:5432/employee_db
+      username: postgres
+      password: postgres
+      driver-class-name: org.postgresql.Driver
+
+    oracle:
+      url: jdbc:oracle:thin:@localhost:1521/XEPDB1
+      username: system
+      password: oracle
+      driver-class-name: oracle.jdbc.OracleDriver
+
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
